@@ -9,3 +9,7 @@ def home():
 @app.route('/calendar')
 def calendar():
     return 'calendar route'
+
+@app.route("/events")
+def events():
+    return "events route"
