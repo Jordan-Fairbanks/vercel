@@ -13,3 +13,6 @@ def calendar():
 @app.route("/events")
 def events():
     return "events route"
+
+if __name__ == "__main__":
+    app.run(debug=True)
